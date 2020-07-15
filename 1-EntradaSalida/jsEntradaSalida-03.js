@@ -5,7 +5,7 @@ function mostrar()
 {
 	let nombreIngresado = document.getElementById("txtIdNombre").value;
 	alert(nombreIngresado);
-	/* Aqui falta como volver el campo a estar en blanco */
+	document.getElementById("txtIdNombre").value = "";
 
 }
 
