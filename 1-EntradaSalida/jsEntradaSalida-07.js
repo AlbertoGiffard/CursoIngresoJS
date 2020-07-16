@@ -7,44 +7,44 @@ ej.: "la Resta es 750"*/
 
 function sumar()
 {	
-	var numOne = document.getElementById("txtIdNumeroUno").value; 
-	var numTwo = document.getElementById("txtIdNumeroDos").value; 
+	let numOne = document.getElementById("txtIdNumeroUno").value; 
+	let numTwo = document.getElementById("txtIdNumeroDos").value; 
 	numOne = parseInt(numOne);
 	numTwo = parseInt(numTwo);	
-	var result;
+	let result;
 	result = numOne + numTwo;
 	alert(`La suma de los numeros da: ${result}`);
 }
 
 function restar()
 {
-	var numOne = document.getElementById("txtIdNumeroUno").value; 
-	var numTwo = document.getElementById("txtIdNumeroDos").value; 
+	let numOne = document.getElementById("txtIdNumeroUno").value; 
+	let numTwo = document.getElementById("txtIdNumeroDos").value; 
 	numOne = parseInt(numOne);
 	numTwo = parseInt(numTwo);	
-	var result;
+	let result;
 	result = numOne - numTwo;
 	alert(`La resta de los numeros da: ${result}`);
 }
 
 function multiplicar()
 { 
-	var numOne = document.getElementById("txtIdNumeroUno").value; 
-	var numTwo = document.getElementById("txtIdNumeroDos").value; 
+	let numOne = document.getElementById("txtIdNumeroUno").value; 
+	let numTwo = document.getElementById("txtIdNumeroDos").value; 
 	numOne = parseInt(numOne);
 	numTwo = parseInt(numTwo);	
-	var result;
+	let result;
 	result = numOne * numTwo;
 	alert(`La multiplicacion de los numeros da: ${result}`);
 }
 
 function dividir()
 {
-	var numOne = document.getElementById("txtIdNumeroUno").value; 
-	var numTwo = document.getElementById("txtIdNumeroDos").value; 
+	let numOne = document.getElementById("txtIdNumeroUno").value; 
+	let numTwo = document.getElementById("txtIdNumeroDos").value; 
 	numOne = parseInt(numOne);
 	numTwo = parseInt(numTwo);	
-	var result;
+	let result;
 	result = numOne / numTwo;
 	result = parseFloat(result);
 	alert(`La division de los numeros da: ${result}`);
