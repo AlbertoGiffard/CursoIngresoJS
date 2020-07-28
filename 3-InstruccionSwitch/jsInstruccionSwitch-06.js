@@ -2,7 +2,20 @@ function mostrar()
 {
 	let hour = document.getElementById("txtIdHora").value;
 	hour = parseInt(hour);
-	switch (hour) {
+
+	// con if
+	if (hour >= 7 && hour <= 11) {
+		alert("Es de mañana.");
+	} else if (hour >= 12 && hour <= 19) {
+		alert("Es de tarde.");
+	} else if((hour >= 20 && hour <= 24) || (hour >= 0 && hour <= 6)){
+		alert("Es de noche.");
+	} else {
+		alert("La hora no existe.");
+	}
+
+	// Con Switch
+	/* switch (hour) {
 		case 7:
 		case 8:
 		case 9:
@@ -40,6 +53,6 @@ function mostrar()
 		default:
 			alert("La hora no existe.")
 			break;
-	} 
+	}  */
 
 }//FIN DE LA FUNCIÓN
