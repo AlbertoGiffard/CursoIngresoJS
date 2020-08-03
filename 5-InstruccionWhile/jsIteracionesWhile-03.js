@@ -4,8 +4,7 @@ function mostrar()
 {
 	let password = prompt("ingrese el número clave.");
 	while (password != "utn750") {
-		password = prompt("ingrese el número clave.");
+		password = prompt("esta mal, vuelve a intentarlo.");
 	}
 	alert("Esa es!");
-	
 }//FIN DE LA FUNCIÓN
